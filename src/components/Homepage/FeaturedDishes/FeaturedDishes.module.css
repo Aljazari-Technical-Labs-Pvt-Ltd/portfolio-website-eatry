@@ -1,0 +1,59 @@
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 2rem;
+  background-color: #f9faff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(78, 84, 200, 0.1);
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #f4f6f8;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.card_img {
+  width: 175px
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* When visible, slide cards to place and fade in */
+.slideIn {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

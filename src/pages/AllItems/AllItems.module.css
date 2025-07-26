@@ -1,0 +1,34 @@
+.container {
+  padding: 2rem;
+  background-color: #fffaf4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pageTitle {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #b22222;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  border-left: 6px solid #b22222;
+  padding-left: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}

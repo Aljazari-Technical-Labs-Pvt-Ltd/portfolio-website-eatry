@@ -1,0 +1,32 @@
+.cta {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #4e54c8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
